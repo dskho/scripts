@@ -3,6 +3,22 @@
 
 ## 更新日志
 
+### 2018.1.30 ~ ip-reverse-to-domain
+
+ip到域名的反向解析，有一些在线工具可供使用，这个提供解析服务的站点好像之前挂过，不确定是否可以使用
+
+项目地址:[ip-reverse-to-domain](https://github.com/starnightcyber/ip-reverse-to-domain)
+
+### 2018.1.30 ~ findSubDomains
+
+子域名爆破脚本
+
+讲道理速度很快并且爆破出的域名和对应ip地址应该都有效
+
+项目地址:[findSubDomains](https://github.com/starnightcyber/findSubDomains)
+
+博客链接:[子域名爆破](http://www.cnblogs.com/Hi-blog/p/7606027.html)
+
 ### 2018.1.30 ~ Shodan
 
 Shodan 网络空间搜索引擎鼻祖，大家都懂 : https://www.shodan.io/

@@ -8,7 +8,7 @@ import time
 
 API_URL = "https://www.censys.io/api/v1"
 UID = "aa7c1f3a-b6ab-497d-9788-5e9e4898a655"
-SECRET = "agcyou4JbRZpSadoH6i4D28VaB4XB2e4"
+SECRET = "pay3u4ytGjbdZGftJ8ow50E8hBQVLk7j"
 page = 1
 PAGES = 50           # the pages you want to fetch
 
@@ -69,9 +69,10 @@ if __name__ == '__main__':
             iplist, num = (getIp(query=query, page=page))
             page += 1
 
-            print(iplist, '\nlen = ', len(iplist))
+            for i in iplist:
+                print i[:i.find('/')]
 
             for i in iplist:
-                f.write(i + '\n')
+                f.write(i[:i.find('/')] + '\n')
             time.sleep(3)
     print('Finished. data saved to file', dst)

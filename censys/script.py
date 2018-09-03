@@ -8,9 +8,9 @@ import time
 
 API_URL = "https://www.censys.io/api/v1"
 UID = "aa7c1f3a-b6ab-497d-9788-5e9e4898a655"
-SECRET = "pay3u4ytGjbdZGftJ8ow50E8hBQVLk7j"
+SECRET = "rSEvCfRQexNKXmpx940DQXWExWAFjkt1"
 page = 1
-PAGES = 50           # the pages you want to fetch
+PAGES = 2           # the pages you want to fetch
 
 
 def getIp(query, page):
@@ -25,6 +25,7 @@ def getIp(query, page):
     }
     try:
         res = requests.post(API_URL + "/search/ipv4", data=json.dumps(data), auth=(UID, SECRET))
+
     except:
         pass
     try:
@@ -35,7 +36,7 @@ def getIp(query, page):
         print("error occurred: %s" % results["error"])
         sys.exit(1)
     # total query result
-    iplist.append("Total_count:%s" % (results["metadata"]["count"]))
+    # iplist.append("Total_count:%s" % (results["metadata"]["count"]))
 
     # add result in some specific form
     for result in results["results"]:

@@ -47,7 +47,7 @@ def attack(ip_port):
 
 
 if __name__ == '__main__':
-    # target = '220.133.224.251'
+    # target = '*.*.*.*'
     i = 1
     with open('ips.txt', 'r') as fr:
         for line in fr.readlines():

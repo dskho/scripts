@@ -3,6 +3,12 @@
 
 ## 更新日志
 
+### 2018.10.31 ~ vul-info-collect
+
+从NVD获取关于某个版本软件的漏洞信息。
+
+博客链接:[获取某个版本软件存在的漏洞信息](https://www.cnblogs.com/Hi-blog/p/vulnerabilities-with-specific-version-of-software.html)
+
 ### 2018.1.30 ~ ip-reverse-to-domain
 
 ip到域名的反向解析，有一些在线工具可供使用，这个提供解析服务的站点好像之前挂过，不确定是否可以使用

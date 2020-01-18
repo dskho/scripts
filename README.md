@@ -3,6 +3,14 @@
 
 ## 更新日志
 
+### 2020.1.18 ~ vul-info-collect
+
+从美国国家漏洞库NVD获取某个特定版本软件的漏洞统计信息
+
+独立项目连接：https://github.com/starnightcyber/vul-info-collect
+
+
+
 ### 2018.10.31 ~ vul-info-collect
 
 从NVD获取关于某个版本软件的漏洞信息。

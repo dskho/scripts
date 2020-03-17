@@ -3,6 +3,12 @@
 
 ## 更新日志
 
+### 2020.3.17 ~ cve_for_today
+
+获取每日更新的CVE漏洞信息。
+
+独立项目连接：https://github.com/starnightcyber/cve_for_today
+
 ### 2020.1.18 ~ vul-info-collect
 
 从美国国家漏洞库NVD获取某个特定版本软件的漏洞统计信息
